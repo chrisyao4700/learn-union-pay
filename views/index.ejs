@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <% include shared/bootstrap.head.ejs %>
+</head>
+<body>
+<h1 class="text-center"><%= title %></h1>
+<div class="container pt-5">
+    <div class="row">
+        <div class="col-md-4"><a href="/union">
+                <button class="btn btn-primary">Union Pay</button>
+            </a></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
+
+<% include shared/bootstrap.tail.ejs %>
+</body>
+</html>
